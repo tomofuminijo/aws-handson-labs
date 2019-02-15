@@ -134,7 +134,7 @@ AWS マネジメントコンソールは頻繁に更新されるため、ラボ�
     yum -y install httpd
     systemctl enable httpd.service
     systemctl start httpd.service
-    wget http://nijot-training.s3.amazonaws.com/demo/html/index.html -O /var/www/html/index.html
+    wget https://raw.githubusercontent.com/tomofuminijo/aws-handson-labs/master/SinglePublicVPC/index.html -O /var/www/html/index.html
     ```
 
 9. **次の手順: ストレージの追加** をクリックします。
